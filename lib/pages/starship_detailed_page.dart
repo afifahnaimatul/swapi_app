@@ -91,7 +91,7 @@ class _StarshipDetailedPageState extends State<StarshipDetailedPage> {
 
   imageBuilder() => Container(
         height: 300,
-        width: 300,
+        width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
           image: DecorationImage(

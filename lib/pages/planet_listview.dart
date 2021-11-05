@@ -73,7 +73,7 @@ class _PlanetListView extends State<PlanetListView> {
 
   imageBuilder() => Container(
         height: 300,
-        width: 300,
+        width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
           image: DecorationImage(

@@ -70,7 +70,7 @@ class _VehicleListViewState extends State<VehicleListView> {
 
   imageBuilder() => Container(
         height: 300,
-        width: 300,
+        width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
           image: DecorationImage(

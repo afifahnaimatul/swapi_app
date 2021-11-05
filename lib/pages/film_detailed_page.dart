@@ -100,7 +100,7 @@ class _FilmDetailedPageState extends State<FilmDetailedPage> {
   imageBuilder() => Center(
         child: Container(
           height: 300,
-          width: 300,
+          width: double.infinity,
           alignment: Alignment.center,
           decoration: BoxDecoration(
             image: DecorationImage(

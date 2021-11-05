@@ -85,7 +85,7 @@ class _PlanetDetailedPageState extends State<PlanetDetailedPage> {
 
   imageBuilder() => Container(
         height: 300,
-        width: 300,
+        width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
           image: DecorationImage(
